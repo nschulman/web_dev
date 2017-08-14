@@ -1,0 +1,49 @@
+* {
+  border: 2px solid Black;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+img {
+  height: 400px;
+  background-position: bottom center;
+}
+
+.background_header {
+  background-image: url(pics/wimberley.jpg);
+  height: 300px;
+  width: 900px;
+  background-position: center center;
+  }
+
+.background_header p {
+  color: white;
+  font-size: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10%;
+  font-weight: 400;
+}
+
+.desc, .nav {
+  background-color: Gray;
+  color: white;
+  max-width: 900px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.desc p {
+  max-width: 900px;
+  padding: 40px
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 0px 30px;
+}
