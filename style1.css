@@ -1,15 +1,18 @@
 * {
-  border: 2px solid Black;
+  border: 1px solid transparent;
   box-sizing: border-box;
   font-family: Helvetica;
 }
 
-img {
-  height: 400px;
-  background-position: bottom center;
+.background {
+    background-color: LightGray;
 }
 
 .background_header {
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  position: relative;
   background-image: url(pics/wimberley.jpg);
   height: 300px;
   width: 900px;
@@ -26,11 +29,17 @@ img {
 }
 
 .desc, .nav {
+  margin: 0 auto;
   background-color: Gray;
   color: white;
-  max-width: 900px;
+  width: 900px;
   font-weight: 400;
   font-size: 20px;
+}
+
+.nav {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 
 .desc p {
@@ -45,5 +54,5 @@ img {
 
 .nav li {
   display: inline-block;
-  padding: 0px 30px;
+  padding: 0px 33px;
 }
